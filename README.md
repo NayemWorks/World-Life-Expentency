@@ -17,11 +17,12 @@ Ensure consistent and reliable data for further analysis.
 1. Duplicate Removal
 Detected duplicates using:
 
+```
 SELECT country, year, COUNT(*) 
 FROM world_life_expectancy
 GROUP BY country, year
 HAVING COUNT(*) > 1;
-
+```
 
 Deleted duplicates to maintain dataset integrity.
 
