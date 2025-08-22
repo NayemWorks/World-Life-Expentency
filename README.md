@@ -126,13 +126,6 @@ FROM world_life_expectancy;
 
 📈 Some countries made huge improvements in life expectancy over time.
 
-📂 Project Structure
-bash
-Copy
-Edit
-📁 World-Life-Expectancy-EDA
-│── 📄 World Life Expectency(EDA).sql   # SQL queries
-│── 📄 README.md                        # Project documentation
 🚀 How to Use
 Import the dataset into your SQL environment.
 
